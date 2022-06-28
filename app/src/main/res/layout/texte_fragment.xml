@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.TextePageFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:elevation="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+
+            <ImageView
+                android:id="@+id/shareBtn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/ic_share" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="50dp"
+                tools:ignore="MissingConstraints">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="5dp"
+                            >
+
+                            <TextView
+                                android:id="@+id/tvFragType"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxWidth="300dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingHorizontal="30dp"
+                                android:text="Type"
+                                android:textSize="11dp"
+                                android:textAlignment="viewStart"
+                                android:textColor="@android:color/darker_gray"
+                                android:textStyle="italic" />
+
+                            <TextView
+                                android:id="@+id/tvFragTypeYear"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:paddingHorizontal="30dp"
+                                android:text="2021"
+                                android:textSize="11dp"
+                                android:textAlignment="viewEnd"
+                                android:textColor="@android:color/darker_gray"
+                                android:textStyle="italic" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginBottom="5dp"
+                            >
+
+                            <TextView
+                                android:id="@+id/tvdatePubPage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxWidth="300dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingHorizontal="30dp"
+                                android:text="Type"
+                                android:textSize="11dp"
+                                android:textAlignment="viewStart"
+                                android:textColor="@android:color/darker_gray"
+                                android:textStyle="italic" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxWidth="30dp"
+                                android:layout_marginTop="5dp"
+                                android:text="/"
+                                android:textSize="11dp"
+                                android:textAlignment="viewStart"
+                                android:textColor="@android:color/darker_gray"
+                                android:textStyle="italic" />
+
+                            <TextView
+                                android:id="@+id/tvdateSignPage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:paddingHorizontal="30dp"
+                                android:text="2021"
+                                android:textSize="11dp"
+                                android:textAlignment="viewEnd"
+                                android:textColor="@android:color/darker_gray"
+                                android:textStyle="italic" />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="10sp"
+                    android:layout_marginTop="10sp"
+                    android:elevation="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:id="@+id/btn_fav"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:src="@drawable/ic_bookmark_disabled" />
+                        <TextView
+                            android:id="@+id/tvFragText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:paddingHorizontal="30dp"
+                            android:text="text"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold|italic" />
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/tvFrTextAr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:text="Description"
+                            android:textStyle="bold |italic"
+                            android:textAlignment="viewStart"
+                            android:paddingLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingVertical="3dp"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="11dp" />
+
+                        <TextView
+                            android:id="@+id/tvFragDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:paddingVertical="3dp"
+                            android:paddingLeft="20dp"
+                            android:text="Description Texte"
+                            android:textColor="@color/black"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="12dp" />
+
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/tvTextAr2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:text="l’organe émetteur"
+                            android:textStyle="bold |italic"
+                            android:textAlignment="viewStart"
+                            android:paddingLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:paddingVertical="3dp"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="11dp" />
+
+                        <TextView
+                            android:id="@+id/tvFragOrgane"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:paddingVertical="3dp"
+                            android:paddingLeft="20dp"
+                            android:text="l’organe émetteur Texte"
+                            android:textColor="@color/black"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="12dp" />
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50sp"
+                    android:background="#BFFFFFFF"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+
+
+                    <ImageView
+                        android:id="@+id/pdf_btn"
+                        android:layout_width="50dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:src="@drawable/getpdf" />
+
+                    <ImageView
+                        android:id="@+id/pdf_btn_ar"
+                        android:layout_width="50dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:src="@drawable/getpdf" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#BFFFFFFF"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+
+                    <TextView
+                        android:id="@+id/tv_pdf_version_fr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Version Fr"
+                        android:textStyle="bold |italic"
+                        android:textAlignment="center"
+                        android:paddingVertical="3dp"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:id="@+id/tv_pdf_version_ar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Version Ar"
+                        android:textStyle="bold |italic"
+                        android:textAlignment="center"
+                        android:paddingVertical="3dp"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="11dp" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout >

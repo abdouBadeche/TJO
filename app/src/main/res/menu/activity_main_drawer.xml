@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+        <group>
+                <item
+                    android:id="@+id/nav_search"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_magnifying_glass"
+                    android:title="Trouver un texte" />
+                <item
+                    android:id="@+id/nav_history"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_history"
+                    android:title="Historiques" />
+                <item
+                    android:id="@+id/nav_fav"
+                    android:enabled="true"
+                    android:icon="@drawable/ic_bookmark_menu"
+                    android:title="Favs" />
+                <item
+                    android:id="@+id/nav_params"
+                    android:enabled="true"
+                    android:icon="@drawable/filter"
+                    android:title="Paramètres" />
+
+        </group>
+</menu>

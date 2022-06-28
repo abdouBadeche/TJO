@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dropitemTv"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:paddingVertical="3dp"
+    android:text="Test"
+    android:textAlignment="center"
+    android:textColor="#000417"
+    android:textSize="12dp"
+    android:textStyle="bold" />
